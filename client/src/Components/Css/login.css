@@ -1,0 +1,86 @@
+/* Center the content */
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+/* Style the form */
+.login form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.login form input[type="email"] {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px 0px 8px 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.login form input[type="password"],.login form input[type="text"]{
+    width: 100%;
+    /* margin-bottom: 10px; */
+    padding: 8px;
+    /* border: 1px solid #ccc;
+    border-radius: 4px; */
+    border: none;
+    font-size: 16px;
+}
+
+.login form input[type="password"]:focus,.login form input[type="text"]:focus           {
+    outline: none;
+}
+
+.login form input[type="submit"] {
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.login h3 {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.login a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login a:hover {
+    text-decoration: underline;
+}
+
+.login_password{
+    display: flex;
+    flex-direction: row;
+    /* flex-basis: center */
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+
+}
